@@ -1,0 +1,16 @@
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+.notVisible{
+  display: none!important;
+}
+
+.loader{
+  height: 100vh;
+  width: 100%;
+  background: #111213;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
