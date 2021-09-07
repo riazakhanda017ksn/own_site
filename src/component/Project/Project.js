@@ -20,6 +20,7 @@ import image7 from "../../projectImg/screenshot15.jpg";
 import image8 from "../../projectImg/screenshot19.jpg";
 import image9 from "../../projectImg/screenshot10.jpg";
 import image10 from "../../projectImg/screenshot11.jpg";
+import imageSol from "../../projectImg/1212.png";
 import portfolio from "../../projectImg/screenshot12.jpg";
 import vg from "../../projectImg/screenshot13.jpg";
 import cl from "../../projectImg/screenshot16.jpg";
@@ -421,6 +422,15 @@ const Project = () => {
         "https://riazakhanda017ksn.github.io/mobirise-clinic/?fbclid=IwAR10wOc_KrjHFd0GG8FNf8EqksfqGLZ3aQafg-51CEG38g5-BbLwAKa6JYc",
       postOne: `This website is a static website. Here a template has been coded and cloned in Mobiris. And I made it to design`,
       postTwo: `This website is a static website. Here a template has been coded and cloned in Mobiris. And I made it to design`,
+    },
+    {
+      name: "The Sol Rapper",
+      image: imageSol,
+      githubOne: "https://github.com/riazakhanda017ksn/Sol-Rapper",
+      githubTwo: "https://github.com/riazakhanda017ksn/Sol-Rapper",
+      liveLink: "https://riazakhanda017ksn.github.io/Sol-Rapper/",
+      postOne: `This website is a static website. Here a template has been coded . And I made it to design`,
+      postTwo: `This website is a static website. Here a template has been coded and . And I made it to design`,
     },
   ];
   ///
