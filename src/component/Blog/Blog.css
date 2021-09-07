@@ -1,0 +1,23 @@
+.Blog-section{
+    background: url(../../images/blog.jpg)no-repeat fixed top center;
+    position: relative;
+    background-size: fixed;
+    background-size: cover;
+    padding: 300px 0;
+}
+.Blog-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.685);
+    
+}
+.blog-section.text-center h1 {
+    color: #fafafa;
+    position: relative;
+    font-size: 84px;
+    opacity: .3;
+}

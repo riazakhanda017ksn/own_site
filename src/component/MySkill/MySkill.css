@@ -1,0 +1,116 @@
+
+
+.progress-bar-section li {
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    color: blanchedalmond;
+}
+
+.progress-bar-section ul{padding: 0}
+h2.text-center.customize-caption span {
+    color: #e63939;
+}
+.progress-bar-section li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(255 255 255 / 80%);
+    border-radius: 1000px;
+}
+
+.progress-bar-section li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 1000px;
+    animation: 6s ease  infinite;
+    background: #fd0155;
+}
+
+.progress-bar-section li.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 90%;
+    }
+}
+
+.progress-bar-section li.css:after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 80%;
+    }
+}
+
+.progress-bar-section li.js:after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to {
+        width: 75%;
+    }
+}
+
+.progress-bar-section li.ng:after {
+    animation-name: ng;
+}
+
+@keyframes ng {
+    to {
+        width: 70%;
+    }
+}
+.progress-bar-section li.bootstrap:after {
+    animation-name: bootstrap;
+}
+
+@keyframes bootstrap  {
+    to {
+        width: 90%;
+    }
+}
+.progress-bar-section li.node:after {
+    animation-name: node;
+}
+
+@keyframes node{
+    to {
+        width: 56%;
+    }
+}
+.progress-bar-section li.express:after {
+    animation-name: express;
+}
+
+@keyframes express{
+    to {
+        width: 60%;
+    }
+}
+.progress-bar-section li {
+    justify-content: space-between;
+    display: flex;
+}
+
+.progress-bar-section li p {
+    position: relative;
+    top: 17px;
+    padding: 0 2px;
+    font-size: 12px;
+}

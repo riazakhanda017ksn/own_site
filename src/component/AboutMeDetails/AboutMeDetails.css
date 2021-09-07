@@ -1,0 +1,194 @@
+
+
+.skill-progressBar li {
+    position: relative;
+    list-style: none;
+    margin: 16px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    color: blanchedalmond;
+}
+
+.skill-progressBar ul{padding: 0}
+h2.text-center.customize-caption span {
+    color: #e63939;
+}
+.skill-progressBar li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(255 255 255 / 80%);
+    border-radius: 1000px;
+}
+
+.skill-progressBar li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 100%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+
+.skill-progressBar li.html:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 95%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+.skill-progressBar li.css:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 90%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+.skill-progressBar li.bootstrap:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 96%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+.skill-progressBar li.js:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 70%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+.skill-progressBar li.react:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 80%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+.skill-progressBar li.node:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 65%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+.skill-progressBar li.express:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 80%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+.skill-progressBar li.mongodb:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 89%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+.skill-progressBar li.heroku:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -1px;
+    width: 92%;
+    height: 4px;
+    border-radius: 1000px;
+    animation: 6s ease;
+    background: linear-gradient(45deg, #fd0155, #093a82);
+}
+
+
+.skill-progressBar li {
+    justify-content: space-between;
+    display: flex;
+}
+
+.skill-progressBar li p {
+    position: relative;
+    top: 17px;
+    padding: 0 2px;
+    font-size: 12px;
+}
+
+.skill-progressBar li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255 255 255 / 80%);
+    border-radius: 1000px;
+}
+.skill-progressBar li p {
+    position: relative;
+    top: 22px;
+    padding: 0 2px;
+    font-size: 12px;
+}
+
+.resume-button button {
+    margin-top: 46px;
+    padding: 19px 44px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: 2px solid #fd0155;
+    color: #fff!important;
+    border-radius: 40px;
+    transition: .3s ease-in-out;
+    position: relative;
+    z-index: 999;
+}
+.resume-button button:hover{
+    background:#fd0155 ;
+   
+}
+
+.my-services p {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 2rem;
+}

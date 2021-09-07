@@ -1,0 +1,100 @@
+.resume-background{
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    background-color: rgb(12, 12, 12);
+
+}
+
+.resume-main-part {
+    position: relative;
+}
+.resume-caption h1 span {
+    color: #da4242;
+
+}
+.resume-caption h1{position: relative;color: #fafafa;}
+
+.education-heading h3 {
+    color: #fffbfb;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.education-list-style ul {
+    list-style: none;
+    
+    position: relative;
+    
+}
+.education-list-style ul::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 19px;
+    width: 1px;
+    height: calc(100% - 100px);
+    background: #FD0155;
+    margin: 0 -4px;
+}
+.education-list-style ul li h4 {
+    font-size: 17px;
+    color: #cacaca;
+    padding: 4px 0;
+}
+.education-list-style ul li h4 span {
+    color: #FD0155;
+    font-size: 14px;
+    font-weight: 500;
+}
+.education-list-style p {
+    color: #bbbbbb;
+    font-size: 12px;
+}
+
+.education-list-style ul li {
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 35px;
+}
+.education-heading h3 {
+    padding-bottom: 48px;
+}
+.education-list-style ul li::before {
+    content: attr(data-counter);
+    position: absolute;
+    top: -1px;
+    left: -34px;
+    background: #FD0155;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #d6d6d6;
+    border-radius: 50%;
+}
+.education-heading h3 {
+    color: #d2d2d2;
+    font-size: 24px;
+    padding: 20px 0;
+    margin-top: 47px;
+}
+.customize-caption {
+    color: #FFF;
+    position: relative;
+    top: 22px;
+    
+}
+.other-skills span {
+    color: #d22424;
+}
+.customize-caption {
+    color: #FFF;
+    position: relative;
+    top: 31px;
+}
+h2.other-skills.pt-3.pb-5 {
+    color: #fafafa;
+    text-align: center;
+    font-weight: 500;
+}

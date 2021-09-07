@@ -1,0 +1,170 @@
+.need-padding{
+    padding: 100px  0;
+}
+
+
+.project-background{
+    background: url(../../images/personal_portfolio-02.png)no-repeat ;
+    height:400px;
+    background-size: cover;
+    width: 100%;
+    transition: .4s;
+    
+
+}
+.bg-warning-color{
+    height: 400px;
+     padding: 30px;
+     opacity: 1;
+     transition: .4s;
+     transform-origin: bottom  center;
+     opacity: 0;
+     background: rgba(4, 4, 26, 0.938);
+     color: #fafafa;
+     width: 100%;
+     z-index: -1;
+}
+
+.project-background:hover .bg-warning-color{
+    opacity: 1;
+   
+    transform-origin: bottom  center;
+    
+
+}
+.project-background1{
+    background: url(../../images/osm.jpg)no-repeat ;
+    height:400px;
+    background-size: cover;
+    width: 100%;
+    transition: .4s;
+    
+
+}
+.bg-warning-color1{
+    height: 400px;
+     padding: 30px;
+     opacity: 1;
+     transition: .4s;
+     transform-origin: bottom  center;
+     opacity: 0;
+     background: rgba(4, 4, 26, 0.938);
+     color: #fafafa;
+     width: 100%;
+     z-index: -1;
+}
+
+.project-background1:hover .bg-warning-color1{
+    opacity: 1;
+   
+    transform-origin: bottom  center;
+    
+
+}
+.project-background2{
+    background: url(../../images/state.jpg)no-repeat ;
+    height:400px;
+    background-size: cover;
+    width: 100%;
+    transition: .4s;
+    
+
+}
+.bg-warning-color2{
+    height: 400px;
+     padding: 30px;
+     opacity: 1;
+     transition: .4s;
+     transform-origin: bottom  center;
+     opacity: 0;
+     background: rgba(4, 4, 26, 0.938);
+     color: #fafafa;
+     width: 100%;
+     z-index: -1;
+}
+
+.project-background2:hover .bg-warning-color2{
+    opacity: 1;
+   
+    transform-origin: bottom  center;
+    
+
+}
+.view-project {
+    position: relative;
+    text-align: end;
+    top: 305px;
+    z-index: 9999;
+    position: relative;
+}
+button.btn.btn-primary {
+    background: linear-gradient(45deg, #e03c3c, #ea0d61cc)!important;
+    border: none;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #353377;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    border:none;
+}
+
+.border-none {
+    border: none;
+}
+.modal-body.border-none {
+    text-align: left;
+}
+button.button {
+    background: linear-gradient(45deg, #d83e77, #f51a1ac7);
+    border: none;
+    padding: 6px 38px;
+    color: #fafafa;
+    margin: 4px 0;
+    border-radius: 13px;
+    margin:0 3px ;
+}
+
+button.button {
+    background: linear-gradient(45deg, #d83e77, #f51a1ac7);
+    border: none;
+    padding: 6px 38px;
+    color: #fafafa;
+    margin: 7px 8px;
+    border-radius: 13px;
+}
+.modal-body.border-none h6 {
+    font-weight: 400;
+    padding: 5px 0;
+   
+}
+
+.project-imgs-item img{
+    border-radius: 6px;
+}
+.github-icon a {
+    background: linear-gradient(45deg, #ea26a5, #d81010e3);
+    padding: 10px 29px;
+    margin: 0 24px;
+    color: #fafafa;
+    text-decoration: none;
+    margin-top: 17px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.linearClose {
+    width: 100%;
+    background: linear-gradient(45deg, #ec3333, #f73261f0);
+    border: none;
+    outline: none;
+    padding: 7px;
+    color: #fafafa;
+    border-radius: 10px;
+}

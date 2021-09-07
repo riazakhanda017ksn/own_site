@@ -1,0 +1,76 @@
+.project-bg{
+    background: #171819;
+    padding: 100px 0;
+}
+
+button.slick-arrow.slick-next {
+    opacity: 0!important;
+}
+
+button.slick-arrow.slick-prev {
+    opacity: 0!important;
+}
+
+.slick-dots li button {
+    font-size: 15px!important;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: #899A9A!important;
+    border: 0;
+    outline: none;
+    background: transparent;
+    transition: .3s ease-in-out;
+}
+.slick-dots li button:hover{
+    color: #ff3460!important
+}
+.slick-dots li button:active{
+    color: #ff3460!important
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left!important;
+}
+.slick-dots li button:hover{
+    font-size: 15px;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    opacity: 999;
+    color: #ff2929;
+    background: #fafafa00!important;
+}
+
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: ''!important;
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

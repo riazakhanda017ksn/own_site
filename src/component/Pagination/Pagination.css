@@ -1,0 +1,26 @@
+.pagination li a {
+    display: inline-block;
+    padding: 6px 14px;
+    color: #9a9a9a!important;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+}
+.pagination li a:hover{
+    display: inline-block;
+    padding: 6px 14px;
+    color: #ff136d!important;
+    position: relative;
+    cursor: pointer;
+}
+.pagination li a:active{
+    color: #ff136d!important;
+}
+
+span.next {
+    color: #9a9a9a!important;
+    position: relative;
+    top: 7px;
+}
+

@@ -1,0 +1,68 @@
+.blog-bg{
+    background: #171819;
+    padding: 120px 0;
+}
+
+
+.blog-main-div img {
+    width: 100%;
+    border-radius: 10px;
+}
+.swal-icon--success__line {
+    height: 5px;
+    background-color: #f72e53;
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 2;
+    
+    
+}
+.swal-button-container button {
+    background: linear-gradient(45deg, #f31b1b, #ff123df7)!important;
+    border: 2px solid #ff123df7;
+    transition: .3s ease-in-out;
+}
+.swal-button-container button:hover{
+    border: 2px solid #ff123df7;
+    background: none!important;
+    color:#ff123df7;
+}
+
+.swal-icon--success__ring {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #ff2d4a!important;
+    border-radius: 50%;
+    box-sizing: content-box;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    z-index: 2;
+}
+.blog-main-div h2 {
+    color: #d0d0d0;
+    font-size: 39px;
+    margin: 20px 0;
+}
+
+.text-sizing {
+    position: relative;
+    bottom: 20px;
+}
+.text-position {
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.text-position a {
+    color: #767676;
+}
+.text-position a:hover{
+    color: #ff1940;
+}
+
+.text-sizing p {
+    color: #767676;
+    line-height: 31px;
+}

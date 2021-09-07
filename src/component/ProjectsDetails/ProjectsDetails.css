@@ -1,0 +1,30 @@
+.need-their-customize img {
+    text-align: center;
+    background-position: center;
+    width: 100%;
+}
+
+.flex-items-for-preview {
+    display: flex;
+    position: relative;
+    bottom: 8px;
+}
+.text-center.style-for-spinner img {
+    height: 192px;
+    width: 181px;
+    position: relative;
+    bottom: 24px;
+}
+.flex-items-for-preview p a {
+    font-size: 14px;
+    color: #d6d6d6b3;
+    margin-right: 15px;
+    transition: .3s ease-in-out;
+    line-height: 40px;
+}
+.flex-items-for-preview p a:hover{
+    font-size: 14px;
+    color: #d6d6d6b3;
+    margin-right: 15px;
+    color: rgb(255, 0, 85);
+}
